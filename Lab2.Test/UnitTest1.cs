@@ -16,7 +16,7 @@ namespace Lab2.Test
             resultadoEsperado = 10;
             resultadoObtenido = calculos.Suma(3, 7);
 
-            Assert.AreEqual(resultadoEsperado, resultadoObtenido);
+            Assert.AreEqual(resultadoEsperado, resultadoObtenido);//Resultado
         }
     }
 }
