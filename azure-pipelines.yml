@@ -42,7 +42,7 @@ steps:
 - task: CopyFiles@1
   displayName: 'Copy Files to: $(build.artifactStagingDirectory)'
   inputs:
-    SourceFolder: '$(build.sourcesdirectory)'
+    SourceFolder: '$(build.SourceFolder)'
     Contents: |
      **\bin\$(buildConfiguration)\**
      src\*.testsettings
