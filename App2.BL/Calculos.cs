@@ -4,7 +4,7 @@
     {
         public double Suma(double a, double b)
         {
-            return a + b
+            return a + b;
         }
     }
 }
