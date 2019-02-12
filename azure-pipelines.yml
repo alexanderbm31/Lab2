@@ -46,11 +46,11 @@ steps:
     Contents: |
      **\bin\$(buildConfiguration)\**
      src\*.testsettings
-    TargetFolder: '$(build.artifactdtagingdirectory)'
+    TargetFolder: '$(build.artifactStagingDirectory)'
   condition: succeededOrFailed()
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   inputs:
-    PathtoPublish: '$(build.artifactdtagingdirectory)'
+    PathtoPublish: '$(build.artifactStagingDirectory)'
   condition: succeededOrFailed()
