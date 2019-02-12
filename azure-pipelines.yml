@@ -50,7 +50,3 @@ steps:
   condition: succeededOrFailed()
 
 - task: PublishBuildArtifacts@1
-  displayName: 'Publish Artifact: drop'
-  inputs:
-    PathtoPublish: '$(build.artifactdtagingdirectory)'
-  condition: succeededOrFailed()
