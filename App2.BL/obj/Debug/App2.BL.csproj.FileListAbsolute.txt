@@ -8,3 +8,4 @@ C:\Users\abarrantes\Desktop\Github\git\Lab2\App2.BL\bin\Debug\App2.BL.pdb
 C:\Users\abarrantes\Desktop\Github\git\Lab2\App2.BL\obj\Debug\App2.BL.csproj.CoreCompileInputs.cache
 C:\Users\abarrantes\Desktop\Github\git\Lab2\App2.BL\obj\Debug\App2.BL.dll
 C:\Users\abarrantes\Desktop\Github\git\Lab2\App2.BL\obj\Debug\App2.BL.pdb
+C:\Users\abarrantes\Desktop\Github\git\Lab2\App2.BL\obj\Debug\App2.BL.csprojAssemblyReference.cache
