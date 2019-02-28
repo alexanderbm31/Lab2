@@ -16,7 +16,6 @@ namespace App2.Test
             Calculos calculos = new Calculos();
             resultadoEsperado = 10;//Comentario de desarrollo.
             resultadoObtenido = calculos.Suma(3, 7);//
-
             Assert.AreEqual(resultadoEsperado, resultadoObtenido);
         }
     }
